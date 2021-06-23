@@ -9,7 +9,7 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: rgb(180, 212, 218);
+    background-color: rgb(157, 243, 186);
 }
 
 
@@ -49,7 +49,7 @@ body, .quote-input{
     border-color: black;
 }
 
-.editor_input_js-editor--input{
+.editor_input_js_editor_input{
     position:absolute;
     background-color: transparent;
     border: 2px  solid;
