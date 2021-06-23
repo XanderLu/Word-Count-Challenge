@@ -13,6 +13,6 @@
 
 ## Executing program
   Double clicked Index.html with any broswer.
-# Author
-  Xander Liu
+## Author
+  Xander Liu \n
   erjioutu2@outlook.com
