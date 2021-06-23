@@ -9,10 +9,10 @@
   6. Count the occurrence of the given string
   7. Randomly generate an Quote from "api.quotable.io/random".
 # Getting Started
-### Dependencies
-
+## Dependencies
+  Windows
 ## Executing program
-  Double clicked Index.html with any broswer.
+  Double clicked Index.html open with any broswer.
 ## Author
-  Xander Liu \n
+  Xander Liu 
   erjioutu2@outlook.com
