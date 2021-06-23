@@ -52,9 +52,11 @@ body, .quote-input{
 .editor_input_js_editor_input{
     position:absolute;
     background-color: transparent;
-    border: 2px  solid;
+    border: 2px  solid #A1922E;
     margin-top: 40px;
     resize: none;
+    border-radius:  .5rem;
+     
 }
  
 .editor_header{   
@@ -68,6 +70,28 @@ body, .quote-input{
     padding: 2em 0em 2em;
     border-bottom: 1px solid #E8E9EA;
     font-weight:bold;
+}
+
+.button{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border:0.2em solid rgb(13, 143, 57);
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: rgb(67, 67, 155);
+    text-align:center;
+    transition: all 0.2s;
+    margin-top: 10;
+    margin-left: 80%;
+}
+
+.button:hover{
+    color:#000000; 
+    background-color:#FFFFFF;
 }
 
 .editor{
