@@ -16,3 +16,6 @@
 ## Author
   Xander Liu 
   erjioutu2@outlook.com
+## Version
+* 0.1 
+  * Initial Release
