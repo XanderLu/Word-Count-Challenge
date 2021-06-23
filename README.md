@@ -12,7 +12,9 @@
 ## Dependencies
   Windows
 ## Executing program
-  Double clicked Index.html open with any broswer.
+  1. Download zip
+  2. Extract to a folder
+  3. Double clicked Index.html open with any broswer.
 ## Author
   Xander Liu 
   erjioutu2@outlook.com
