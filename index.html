@@ -1,0 +1,76 @@
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Word Count</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quote-display" id="quoteDisplay">quote</div>
+        <textarea id ="quoteInput" class="quote-input" placeholder="Start typing here" autpfocus></textarea>
+        <button onclick="confirmAction()">New Quote</button>
+    </div>
+
+
+    <div class ="editor" id="js-editor">
+        <div class="editor_header">
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">WORDS</h4>
+                    <span class="editor_count_editor_count--words" id="js-count-words" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">CHARACTERS</h4>
+                    <span class="editor_count_editor_count--characters" id="js-count-characters" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">SENTENCES</h4>
+                    <span class="editor_count_editor_count--sentences" id="js-count-sentences" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">PARAGRAPH</h4>
+                    <span class="editor_count_editor_count--paragraphs" id="js-count-paragraphs" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">BIGRAMS</h4>
+                    <span class="editor_count_editor_count--bigrams" id="js-count-bigrams" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_block">
+                <div class="editor_group">
+                    <h4 class="editor_title">OCCURRENCE</h4>
+                    <span class="editor_count_editor_count--occurence" id="js-count-occurrence" data-default="0">0</span>
+                </div>
+            </div>
+
+            <div class="editor_content">
+                <textarea class ="editor_input_js-editor--input" id="js-bigrams-input" placeholder="Word Search" autofocus></textarea>
+            </div>
+        
+
+        </div>
+    </div>
+</body>
+
+</html>
